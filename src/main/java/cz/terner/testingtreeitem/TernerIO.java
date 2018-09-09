@@ -57,7 +57,7 @@ public class TernerIO {
             int we = item.getWeight() + ghg;
             hmotnosti.put(level, we);
             print(item);
-            level = 0;
+            level = level - 1;
         }
     }
     
